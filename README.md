@@ -1,8 +1,8 @@
 # Control_Computer_by_Mail
 
-### 测试环境
-
-- 操作系统：　`Windows10`
+### 测试信息
+- Author：`Zehe Lu`
+- 操作系统：　`Windows 10`
 - Python：　`python 3.7.1`
 - 主要的python模块：`imaplib`，`email`，`os`
 
