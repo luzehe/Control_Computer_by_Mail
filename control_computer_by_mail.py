@@ -1,23 +1,3 @@
-# Control_Computer_by_Mail
-
-### 测试环境
-
-- 操作系统：　`Windows10`
-- Python：　`python 3.7.1`
-- 主要的python模块：`imaplib`，`email`，`os`
-
-
-
-### 原理说明
-
-- 通过`imaplib`和`email`模块接收邮件信息，并通过获取的响应信息，调用`os`模块的`system`方法。通过调用`os.system('系统命令')`方法，执行电脑的命令。
-- 本教程用Windows10系统作为示范，通过程序远程执行Windows的命令操作符CMD。
-
-
-
-### 相应代码如下
-
-```python
 # -*- coding: utf-8 -*-
 import imaplib
 import email
@@ -93,11 +73,3 @@ class EmailControl(object):
 if __name__ == '__main__':
     control = EmailControl()
     control.run()
-
-```
-
-### 问题及反馈
-
-- 代码还有很多不完善的地方，请多多见谅。
-- 如有任何问题和已经欢迎和我联系讨论。
-- WeChat：@luzehe
